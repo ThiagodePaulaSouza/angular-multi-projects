@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CtxCadastroComponent } from './ctx-cadastro.component';
 
 describe('CtxCadastroComponent', () => {
@@ -20,4 +19,5 @@ describe('CtxCadastroComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

@@ -3,11 +3,6 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {
-      "ctx-cadastro": [
-        "dist/ctx-cadastro"
-      ]
-    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -26,7 +21,17 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-app1": [
+        "dist/angular-app1/angular-app1",
+        "dist/angular-app1/"
+      ],
+      "angular-app2": [
+        "dist/angular-app2/angular-app2",
+        "dist/angular-app2/"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

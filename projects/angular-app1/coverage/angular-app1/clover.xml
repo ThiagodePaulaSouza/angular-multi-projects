@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1669833995619" clover="3.2.0">
+  <project timestamp="1669833995619" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="4" coveredelements="4" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
+    <file name="app.component.html" path="C:\Users\m8dev01\Desktop\teste\angular-multi-projects\projects\angular-app1\src\app\app.component.html">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="app.component.ts" path="C:\Users\m8dev01\Desktop\teste\angular-multi-projects\projects\angular-app1\src\app\app.component.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
