@@ -1,16 +1,21 @@
-// import { TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
-// import { CtxCadastroService } from './ctx-cadastro.service';
+import { CtxCadastroService } from './ctx-cadastro.service';
 
-// describe('CtxCadastroService', () => {
-//   let service: CtxCadastroService;
+describe('CtxCadastroService', () => {
+  let service: CtxCadastroService;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [CtxCadastroService]
+    });
 
-//   beforeEach(() => {
-//     TestBed.configureTestingModule({});
-//     service = TestBed.inject(CtxCadastroService);
-//   });
+    service = TestBed.inject(CtxCadastroService);
+  });
 
-//   it('should be created', () => {
-//     expect(service).toBeTruthy();
-//   });
-// });
+  it("should sum 2 numbers",()=>{
+    expect(service.sum(1,2)).toBe(3)
+  })
+  it("should minus 2 numbers",()=>{
+    expect(service.minus(2,2)).toBe(0)
+  })
+})
